@@ -1,0 +1,91 @@
+.item-list {
+    /* background-color: pink; */
+
+}
+
+.list-item {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 4px;
+    padding: 4px 5px;
+    background-color: #99a;
+    font-size: 1.1em;
+    font-weight: 450;
+    color: white;
+}
+.list-item button {
+    width: 40px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    /* float: right; */
+}
+.list-item button:hover {
+    cursor: pointer;
+    background-color: rgb(179, 13, 13);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 0px 16px;
+    margin-bottom: 4px;
+    color: #7c8084;
+}
+.nav-bar {
+}
+.nav-link {
+    list-style: none;
+    display: inline-block;
+    padding: 4px;
+    margin: 4px;
+    font-weight: 500;
+    color:  rgb(22, 105, 189);
+    
+}
+.nav-link a {
+    text-decoration: none;
+    color:  rgb(22, 105, 189);
+}
+.nav-link a:visited {
+    text-decoration: none;
+    color:  rgb(22, 105, 189);
+    
+}
+.nav-link a.active {
+    border-bottom: 1px solid rgb(22,105,189);
+}
+.nav-link:hover {
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.blog-post {
+    width: 700px;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 0, auto;
+    margin: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.blog-post h3 {
+    font-size:1.9em;
+    text-align: center;
+    color: rgb(22,105,189);
+    font-family: sans-serif
+}
+.blog-post h4 {
+    font-size: 1.6em;
+    color: #7c8084;
+    text-align: center;
+}
